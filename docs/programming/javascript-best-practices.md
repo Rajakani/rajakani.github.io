@@ -4,6 +4,7 @@ title: 'JS Best practices'
 parent: Programming
 nav_order: 3
 modifiedDate: 12-Jan-2017
+comments: true
 ---
 
 <ul>

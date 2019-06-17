@@ -75,6 +75,9 @@
             <div>Modified on: {{page.modifiedDate}}</div>
            {% endif %}
         </div>
+        {% if page.comments %} 
+          {% include comments.html %}
+        {% endif %}
       </div>
     </div>
   </div>
