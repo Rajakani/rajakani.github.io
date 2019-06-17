@@ -21,7 +21,6 @@
   flex-wrap: wrap;
   padding-top: $gutter-spacing-sm;
   padding-bottom: $gutter-spacing-sm;
-  background-color: $sidebar-color;
 
   @include mq(md) {
     flex-wrap: nowrap;

@@ -70,11 +70,13 @@
           </ul>
           {% endif %}          
         </div>
+        <!-- Add Post Related Details -->
         <div id="page-details" class="page-details" role="main">
           {% if page.modifiedDate != undefined %}
             <div>Modified on: {{page.modifiedDate}}</div>
            {% endif %}
         </div>
+          <!-- Add Page Comments -->
         {% if page.comments %} 
           {% include comments.html %}
         {% endif %}

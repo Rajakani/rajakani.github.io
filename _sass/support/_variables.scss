@@ -2,10 +2,10 @@
 // Typography
 //
 
-$body-font-family: -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans-serif !default;
+$body-font-family: "segoe ui","Lucida Sans Unicode",-apple-system, BlinkMacSystemFont,"helvetica neue", helvetica, roboto, noto, arial, sans-serif !default;
 $mono-font-family: "SFMono-Regular", Menlo, Consolas, Monospace !default;
 $root-font-size: 16px !default;         // Base font-size for rems
-$body-line-height: 1.4 !default;
+$body-line-height: 1.7 !default;
 $body-heading-line-height: 1.15 !default !default;
 
 //
@@ -19,6 +19,7 @@ $grey-dk-100: #5c5962 !default;
 $grey-dk-200: #44434d !default;
 $grey-dk-250: #302d36 !default;
 $grey-dk-300: #27262b !default;
+$grey-dk-500: #000000 !default;
 
 $grey-lt-000: #f5f6fa !default;
 $grey-lt-100: #eeebee !default;
@@ -55,9 +56,9 @@ $sidebar-color: $grey-lt-000 !default;
 $code-background-color: $grey-lt-000 !default;
 
 $body-text-color: $grey-dk-100 !default;
-$body-heading-color: $grey-dk-300 !default;
+$body-heading-color: $grey-dk-500 !default;
 $nav-child-link-color: $grey-dk-100 !default;
-$link-color: $purple-000 !default;
+$link-color: $blue-000 !default;
 $btn-primary-color: $purple-100 !default;
 $base-button-color: #f7f7f7 !default;
 

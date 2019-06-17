@@ -5,8 +5,7 @@
 .site-title {
   display: block;
   flex: 1 1 auto;
-  color: $body-heading-color;
-  background-color: $sidebar-color;
+  color: $body-heading-color; 
 
   @include mq(md) {
     position: absolute;
