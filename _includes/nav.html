@@ -23,11 +23,11 @@
                         {% assign grand_children_list = site.html_pages | sort:"nav_order" %}
                         <ul class="navigation-list-child-list">
                           {% for grand_child in grand_children_list %}
-                            {% if grand_child.parent == child.title %}
+                            <!-- {% if grand_child.parent == child.title %}
                               <li class="navigation-list-item {% if page.url == grand_child.url %} active{% endif %}">
                                 <a href="{{ grand_child.url | absolute_url }}" class="navigation-list-link{% if page.url == grand_child.url %} active{% endif %}">{{ grand_child.title }}</a>
                               </li>
-                            {% endif %}
+                            {% endif %} -->
                           {% endfor %}
                         </ul>
                       {% endif %}
