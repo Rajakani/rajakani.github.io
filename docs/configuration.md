@@ -35,7 +35,7 @@ search_enabled: true
 # Aux links for the upper right navigation
 aux_links:
     "Just the Docs on GitHub":
-      - "//github.com/pmarsceill/just-the-docs"
+      - "//github.com/rajakani.github.io"
 ```
 
 ## Color scheme
