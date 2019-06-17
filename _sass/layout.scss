@@ -55,6 +55,13 @@
   }
 }
 
+.page-details{
+  font-size: .6em;
+  color: grey;
+  padding: 5px;
+  float: right;
+  width: 100%;
+}
 .main-content {
   padding-top: $gutter-spacing-sm;
   @include container;

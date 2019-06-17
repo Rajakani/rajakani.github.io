@@ -12,7 +12,7 @@
         {% include nav.html %}
       </div>
       <footer role="contentinfo" class="site-footer">
-        <p class="text-small text-grey-dk-000 mb-0">This site uses <a href="https://github.com/pmarsceill/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.</p>
+        <p class="text-small text-grey-dk-000 mb-0">&copy; Rajakani</p>
       </footer>
     </div>
     <div class="main-content-wrap js-main-content" tabindex="0">
@@ -52,6 +52,11 @@
             </nav>
           {% endif %}
         {% endunless %}
+        <div id="page-details" class="page-details" role="main">
+          {% if page.modifiedDate != undefined %}
+            <span>Modified on: {{page.modifiedDate}}</span>
+           {% endif %}
+        </div>
         <div id="main-content" class="page-content" role="main">
           {{ content }}
 
@@ -68,7 +73,7 @@
               {% endif %}
             {% endfor %}
           </ul>
-          {% endif %}
+          {% endif %}          
         </div>
       </div>
     </div>

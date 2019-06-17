@@ -3,7 +3,7 @@ layout: default
 title: Programming
 nav_order: 1
 has_children: true
-permalink: /docs/2017-05-15-programming
+permalink: /docs/programming
 ---
 
 
