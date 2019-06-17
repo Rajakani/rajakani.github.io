@@ -9,7 +9,7 @@ comments: false
 ---
 # Design Patterns
 
-### What is Design Patterns
+### What is a Design Pattern
 Design pattern is a repeatable solution to a commonly occurring problem in software design. 
 
 ### Who need to learn that
@@ -19,12 +19,12 @@ Every developer in the Team!
 There are many patterns which are in common use, but many developers are not able to identify it. Learning this helps in easing the communication between team members. 
 Instead of saying write the code in which the dependant classes needs to passed in as dependency, Simply say use [Factory Pattern]({% link docs/programming/designPatterns/factoryPattern.md %}).
 
-### What are the benefits in applying patterns
+### What are the benefits of applying patterns
 No immediate benefits. If you are working on a small application with clear requirements, dont bother about adding patterns. 
 But if you are into serious business in which the requirements change over time, consider using patterns. 
 
 ### Where to apply all these patterns
-Donot attempt to add patterns to your application since you are interested in patterns a lot. Look for coding problems you face in your application, which can be solved by using patterns. Also be aware that some patterns make the code difficult to understand.So use them wisely.
+Don't attempt to add patterns to your application since you are interested in patterns a lot. Look for coding problems you face in your application, which can be solved by using patterns. Also be aware that some patterns make the code difficult to understand. So use them wisely.
 
 ### When to apply patterns
 Patterns are nothing but different implementations of [SOLID Principles]({% link docs/programming/solidPrinciples.md %}). So sooner the better. 
