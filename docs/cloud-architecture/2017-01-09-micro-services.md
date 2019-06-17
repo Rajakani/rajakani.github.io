@@ -3,6 +3,7 @@ layout: default
 title: 'Micro Services'
 parent: Cloud architecture
 nav_order: 1
+modifiedDate: 16-Jan-2019
 ---
 Microservice is a method of developing software applications as a suite of independently deployable, small, modular services in which each service runs a unique process and communicates each other to complete a business goal.
 

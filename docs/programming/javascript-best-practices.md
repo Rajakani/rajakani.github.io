@@ -3,6 +3,7 @@ layout: default
 title: 'JS Best practices'
 parent: Programming
 nav_order: 2
+modifiedDate: 12-Jan-2017
 ---
 
 <ul>

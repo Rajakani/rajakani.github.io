@@ -51,12 +51,7 @@
               </ol>
             </nav>
           {% endif %}
-        {% endunless %}
-        <div id="page-details" class="page-details" role="main">
-          {% if page.modifiedDate != undefined %}
-            <span>Modified on: {{page.modifiedDate}}</span>
-           {% endif %}
-        </div>
+        {% endunless %}        
         <div id="main-content" class="page-content" role="main">
           {{ content }}
 
@@ -74,6 +69,11 @@
             {% endfor %}
           </ul>
           {% endif %}          
+        </div>
+        <div id="page-details" class="page-details" role="main">
+          {% if page.modifiedDate != undefined %}
+            <div>Modified on: {{page.modifiedDate}}</div>
+           {% endif %}
         </div>
       </div>
     </div>
