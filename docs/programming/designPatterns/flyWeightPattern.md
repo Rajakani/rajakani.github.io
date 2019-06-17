@@ -6,4 +6,4 @@ grand_parent: Programming
 nav_order: 10
 modifiedDate: 4-Apr-2019
 ---
-<em> The pattern’s aim is to define a one-to-many relationship such that when one object changes state, the others are notified and updated automatically.</em>
+<em>Flyweight pattern is primarily used to reduce the number of objects created and to decrease memory footprint and increase performance.</em>

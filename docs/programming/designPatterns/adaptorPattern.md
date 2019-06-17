@@ -6,4 +6,4 @@ grand_parent: Programming
 nav_order: 8
 modifiedDate: 4-Apr-2019
 ---
-<em> The pattern’s aim is to define a one-to-many relationship such that when one object changes state, the others are notified and updated automatically.</em>
+<em> The adapter pattern enables you to reuse existing classes even so they don't implement the required interface.</em>

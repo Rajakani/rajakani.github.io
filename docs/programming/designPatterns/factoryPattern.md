@@ -6,4 +6,4 @@ grand_parent: Programming
 nav_order: 5
 modifiedDate: 4-Apr-2019
 ---
-<em> The pattern’s aim is to define a one-to-many relationship such that when one object changes state, the others are notified and updated automatically.</em>
+<em> A factory pattern is one of the core design principles to create an object, allowing clients to create objects of a library in a way such that it doesn't have tight coupling with the class hierarchy of the library.</em>

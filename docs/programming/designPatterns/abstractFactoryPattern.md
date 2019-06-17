@@ -6,4 +6,4 @@ grand_parent: Programming
 nav_order: 6
 modifiedDate: 4-Apr-2019
 ---
-<em> The pattern’s aim is to define a one-to-many relationship such that when one object changes state, the others are notified and updated automatically.</em>
+<em>Abstract Factory Pattern says that just define an interface or abstract class for creating families of related (or dependent) objects but without specifying their concrete sub-classes.That means Abstract Factory lets a class returns a factory of classes</em>

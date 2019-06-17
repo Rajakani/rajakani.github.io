@@ -6,4 +6,4 @@ grand_parent: Programming
 nav_order: 7
 modifiedDate: 4-Apr-2019
 ---
-<em> The pattern’s aim is to define a one-to-many relationship such that when one object changes state, the others are notified and updated automatically.</em>
+<em>The composite pattern describes a group of objects that is treated the same way as a single instance of the same type of object. The intent of a composite is to "compose" objects into tree structures to represent part-whole hierarchies.</em>
