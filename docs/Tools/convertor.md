@@ -12,6 +12,8 @@ modifiedDate: 09-Jun-2019
 <script>
 function convertNumberToWord(){ 
     var data = document.getElementById("numberField").value;
+    if(data === "" || data === undefined) return false;
+    
     $.ajax({
         url: 'https://us-central1-adyarcafe-blogs.cloudfunctions.net/numberToWords?message='+data,
         dataType: 'jsonp',
