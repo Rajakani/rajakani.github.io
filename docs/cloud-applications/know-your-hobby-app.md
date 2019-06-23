@@ -10,10 +10,11 @@ comments: true
 # Know Your Hobby: Application Implementation Details
 
 This application is implemented using cloud infrastructure like, Compute engine for hosting code, Cloud storage for static files and Mongodb Atlas as database
+[Application URL](http://104.198.237.203/).
 
 ## Dev Process
 
-Source code: [github url: github.com/cafeadmin/blogs.git](https://github.com/cafeadmin/blogs.git)
+Source code: [github url: github.com/cafeadmin/blogs.git](https://github.com/cafeadmin/blogs.git)  
 Dontnet core version 2.2 is required
 
 ## Database: MongoDb Atlas
@@ -25,7 +26,7 @@ Site password: complex one
 <password> for url: random generated
 ```
 
-Database:  knowYourHobby
+Database:  knowYourHobby  
 
 This is in Free Tier.
 
@@ -33,8 +34,8 @@ This is in Free Tier.
 
 ### Google Cloud Storage
 
-Project: KnowYourHobby
-Bucket Name: kyh-stamps
+Project: KnowYourHobby  
+Bucket Name: kyh-stamps  
 Files are just referred in posts using url(Need to learn more on this)
 
 ## Publishing Details
@@ -42,8 +43,8 @@ Files are just referred in posts using url(Need to learn more on this)
 ### Server
 
 Google Cloud Compute instance on Linux 19.04 minimal with .6 GB RAM and 10 GB Memory
-Account: AdyarCafe
-Project: KnowYourHobby
+Account: AdyarCafe  
+Project: KnowYourHobby  
 Connect using SSH Putty, Google Cloud Console.
 
 ### Published in Linux as per this blog
@@ -53,7 +54,8 @@ Connect using SSH Putty, Google Cloud Console.
 Currently the process is manually run and its not under the control of supervisor tool.
 There were issues in setting the urls using configurations
 
-Process to publish in Server
+### Process to publish in Server
+
 Navigate to below folder:
 
 ```bash
