@@ -88,15 +88,24 @@ Copy to web folder
 sudo cp -a publish/ /var/kyh-server
 ```
 
-Temp fix for running the application:
+The Application is run using a service in Systemd. 
+
+ngnix Congig file. 
 
 ```bash
-cd /home/adyarcafe/kyh-source/blogs
-sudo dotnet run
+sudo vi /etc/nginx/sites-available/default
+```
+
+```bash
+sudo systemctl enable kyh-app.service
+sudo systemctl start kyh-app.service
+sudo systemctl status kyh-app.service
+\\To see status
+sudo journalctl -fu kyh-app.service
 ```
 
 for testing purpose
-get the listeners of port
+If there are errors related to port, run this command to get the listeners of port
 
 ```bash
 sudo netstat -lutnp | grep -w '5000'
