@@ -10,7 +10,7 @@ comments: true
 # Know Your Hobby: Application Implementation Details
 
 This application is implemented using cloud infrastructure like, Compute engine for hosting code, Cloud storage for static files and Mongodb Atlas as database
-[Application URL](http://104.198.237.203/).
+[Application URL](http://23.251.145.189/).
 
 ## Dev Process
 
@@ -74,6 +74,8 @@ Then publish using Dotnet
 dotnet restore
 dotnet build
 dotnet publish --configuration Release
+OR
+dotnet publish --configuration Release --output /var/kyh-server/
 ```
 
 Then navigate to folder
