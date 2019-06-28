@@ -5,9 +5,15 @@ parent: Cloud applications
 nav_order: 2
 modifiedDate: 16-Jun-2019
 comments: true
+dateWidget:
+    targetTitle: Basic Architecture
+    targetDate: 2-Jul-2019
 ---
 
+
 # Know Your Hobby: Application Implementation Details
+
+{% include counter-widget.html %}
 
 This application is implemented using cloud infrastructure like, Compute engine for hosting code, Cloud storage for static files and Mongodb Atlas as database
 [Application URL](http://23.251.145.189/).
