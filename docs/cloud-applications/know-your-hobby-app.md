@@ -5,12 +5,18 @@ parent: Cloud applications
 nav_order: 2
 modifiedDate: 16-Jun-2019
 comments: true
+dateWidget:
+    targetTitle: Basic Architecture
+    targetDate: 2-Jul-2019
 ---
+
 
 # Know Your Hobby: Application Implementation Details
 
+{% include counter-widget.html %}
+
 This application is implemented using cloud infrastructure like, Compute engine for hosting code, Cloud storage for static files and Mongodb Atlas as database
-[Application URL](http://104.198.237.203/).
+[Application URL](http://23.251.145.189/).
 
 ## Dev Process
 
@@ -74,6 +80,8 @@ Then publish using Dotnet
 dotnet restore
 dotnet build
 dotnet publish --configuration Release
+OR
+dotnet publish --configuration Release --output /var/kyh-server/
 ```
 
 Then navigate to folder
@@ -88,15 +96,24 @@ Copy to web folder
 sudo cp -a publish/ /var/kyh-server
 ```
 
-Temp fix for running the application:
+The Application is run using a service in Systemd. 
+
+ngnix Congig file. 
 
 ```bash
-cd /home/adyarcafe/kyh-source/blogs
-sudo dotnet run
+sudo vi /etc/nginx/sites-available/default
+```
+
+```bash
+sudo systemctl enable kyh-app.service
+sudo systemctl start kyh-app.service
+sudo systemctl status kyh-app.service
+\\To see status
+sudo journalctl -fu kyh-app.service
 ```
 
 for testing purpose
-get the listeners of port
+If there are errors related to port, run this command to get the listeners of port
 
 ```bash
 sudo netstat -lutnp | grep -w '5000'

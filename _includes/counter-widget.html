@@ -1,0 +1,35 @@
+<style>
+    .widget-Highlight {
+   padding: 15px;
+   width: 50%;
+   float: right;
+   margin: 5px;
+   background: #108CF3;
+   color: #fff;
+   font-size: 20px;
+   font-weight: bold;
+   line-height: 1.2em;
+   border: 3px dashed #fff;
+   border-radius: 8px;
+   box-shadow: 0 0 0 5px #1077F3, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+   text-shadow: -1px -1px #124A99;
+   font-weight: normal;
+}
+</style>
+
+<div class="counter widget-Highlight">
+
+ <div>{{ page.dateWidget.targetTitle }}</div>
+    <div>
+        <span>Days to Target: </span>        
+        <span id="#counter"> </span>
+    </div>
+<script>
+    var date1 = new Date();
+    var date2 = new Date('{{page.dateWidget.targetDate}}');
+    const diffTime = Math.abs(date2.getTime() - date1.getTime());
+    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
+    document.getElementById('#counter').innerHTML = diffDays;
+</script>
+
+</div>

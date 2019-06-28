@@ -4,10 +4,14 @@ title: Home
 nav_order: 1
 description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
 permalink: /
+dateWidget:
+    targetTitle: Google Cloud Architect Exam
+    targetDate: 30-Sep-2019
 ---
 
 ## My Developer Story
 {: .fs-9 }
+{% include counter-widget.html %}
 
 A blog is useful for many reasons. It can become a source of leads, it can be the place where, in the future, you might sell your products if you want to become an indie developer, or it can simply be the place where you have your audience and express your ideas.
 
