@@ -13,7 +13,11 @@ The above quote is from the book ![Systemantics](https://www.amazon.in/gp/produc
 
 ### How to start writing beautiful code
 
-Before start writing any piece of code, discuss more about the class design. Discuss as much as use cases possible and how the code could be reused. We dont need to write all the scenarios upfront sometimes this may come under YAGNI, but still think about the modularity of the code.
+Before start writing any piece of code, brainstrom more about the business terminologies to start with Class design. Discuss as much as use cases of the class and how the code could be reused for that. We dont need to implement all those scenarios upfront as this may fall under YAGNI, but still think about the modularity and extensibilty of the code.
 
-Once you discuss all the terminologies you use in the business and decided upon the behaviours and properties your Class may have, then write the abstract class first, Interfaces are a good choice though.
-Never write any implemenation code first, write the behaviours and just add a method name to be called inside the behaviours, if possible with the input and output parameters filled. Think of how easily this can be overriden. Once you have the methods defined, its easier to read the implemenations. As a rule of thumb never write more than Five lines of code inside any methods. This helps in making the code more modular and splitting them to classes.
+Once all the business terminologies are listed out and decide which one will become the behaviours and which one will be the properties, then write the abstract class first, Interfaces are a good choice though.
+If you feel something may get change in future or may vary for different types, those are candidates to become a new sub-class.
+
+Never write any implemenation code first, write the behaviours and just add a method name inside it, if possible with the input and output parameters filled. Once you have the methods defined, its easier to read through the implementations. Here your are not writing any code, just the flow block names.
+
+As a rule of thumb never write more than Five lines of code inside any methods. This helps in making the code more modular and grouping them to classes later.
