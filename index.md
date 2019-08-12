@@ -2,23 +2,17 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+description: "Welcome, This is my personal Blog"
 permalink: /
-dateWidget:
-    targetTitle: Google Cloud Architect Exam
-    targetDate: 30-Sep-2019
 ---
 
-## My Developer Story
-{: .fs-9 }
-{% include counter-widget.html %}
+![Skill set ](\assets\images\skillset-cloud.png)
 
-A blog is useful for many reasons. It can become a source of leads, it can be the place where, in the future, you might sell your products if you want to become an indie developer, or it can simply be the place where you have your audience and express your ideas.
+I am a Technical lead and a budding Architect with 12 plus years of experience in multiple Domains and technologies.
 
-I’ve been blogging for more than 3 years now, more or less consistently — although sometimes I stopped for too long. I recently revamped the blog and started to write consistently, to the point I now write every week. I’ve already seen a lot of good results.
+I’ve been blogging for more than 3 years now, more or less consistently — although sometimes I stopped for too long. I recently revamped the blog and started to write consistently, to the point I now write every week.
 
-Also, the best moment to teach something is right after you’ve learned it, because you remember how not knowing about it feels.
+I learn new things every day. Most of the content that I end up writing here are those I got while researching a topic.
+If I can't explain it in simple terms, then I haven't fully understood the topic. I believe in this and so blogging helps me in explaining things.
 
-I learn new things every day. Around 50% of what I end up writing I just learned while researching a topic.
 
-If we cant explain it in simple terms, we havent fully understood the topic. Blogging helps me in explaining things.
