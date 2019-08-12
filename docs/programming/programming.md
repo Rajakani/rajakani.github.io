@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Programming
-nav_order: 1
+nav_order: 2
 has_children: true
 permalink: /docs/programming
 ---
 
 
-<em>I like my code to be neat and reader friendly. If the flow is understandable in a single view, and the naming conventions are self explanatory then it gives the reader a pleasant experience. When I come back to the code later, say in a week or a month and still feel great about it then it has obviously cleared my litmus test interms of quality. A perfect piece of code conveys one thing at a time. Similar to an art, coding can also turn perfect with practice. Practice comes by referring different codes and writing app-code till you are satisfied.  </em>
+&quot;*I like my code to be neat and maintainence friendly. If the flow is understandable and the naming conventions are self explanatory then it makes life easier for the maintainence programmer. When I come back to the code later, say in a week or a month and still feel great about it then it has obviously cleared my litmus test interms of quality. A perfect piece of code conveys one thing and does the same. Similar to an art, coding can also be turned perfect with practice. So keep practicing by referring different code libraries and refactor your code till satisfied.* &quot;

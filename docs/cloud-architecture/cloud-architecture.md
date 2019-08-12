@@ -15,6 +15,12 @@ A Professional Cloud Architect enables organizations to leverage Cloud technolog
 
 The architecture is defining components of a system and their Interactions. Design is what happens inside those components and how beautifully its implemented. The architect is responsible for the architecture and the tech lead for the design.
 
-Sample [Solutions](https://cloud.google.com/solutions/) for Google Cloud services 
+### Cloud Architect Skill sets
 
+- Knowledge in Architecture & Design
+- Experience in equivalent cloud services like EC2, EBS, Lambda, IAM, API Gateway, S3, Dynamo DB, Elasticache, Step Functions, Kinesis, CFT, Cognito, SQS, SNS, RDS, R53, CloudFront, Load Balancers, AutoScaling, CloudWatch, CloudTrail, Elastic Search, VPC & Networking concepts
+- Should have Developed one or more Cloud applications.
+- Experience in Programming using Python or other high level Languages, DevOps lifecycle, DevOps tools like Jenkins, Chef, Container Concepts.
+- Knowledge of Security/Access Control, Concurrency, Online Diagnosis, Deployment, Upgrade/Migration, Internationalization and Production Support.
 
+Sample [Solutions](https://cloud.google.com/solutions/) for Google Cloud services
