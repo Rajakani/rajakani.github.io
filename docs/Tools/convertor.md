@@ -10,20 +10,19 @@ modifiedDate: 09-Jun-2019
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
 <script>
-function convertNumberToWord(){ 
+function convertNumberToWord(){
     var data = document.getElementById("numberField").value;
     if(data === "" || data === undefined) return false;
-    
     $.ajax({
         url: 'https://us-central1-adyarcafe-blogs.cloudfunctions.net/numberToWords?message='+data,
         dataType: 'jsonp',
        contentType: 'application/javascript',
-        cors: true ,       
-        method: 'GET',       
+        cors: true ,
+        method: 'GET',
         headers: {
             'Access-Control-Allow-Origin': '*'
           },
-        crossDomain: true,       
+        crossDomain: true,
         success: function(data){
           document.getElementById("wordOutput").innerHTML = data.a
         },
@@ -36,7 +35,7 @@ function convertNumberToWord(){
   }
 </script>
 
-<label for="name">Enter Number:</label>
+<label for="name"> Enter Number:</label>
 <input type="number" id="numberField" name="number" required
        minlength="1" maxlength="15" size="10">
 

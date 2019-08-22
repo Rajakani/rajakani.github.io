@@ -4,15 +4,27 @@ title: Home
 nav_order: 1
 description: "Welcome, This is my personal Blog"
 permalink: /
+modifiedDate: 09-Jun-1986
 ---
 
 ![Skill set ](\assets\images\skillset-cloud.png)
 
-I am a Technical lead and a budding Architect with 12 plus years of experience in multiple Domains and technologies.
+## Latest Post
 
-I’ve been blogging for more than 3 years now, more or less consistently — although sometimes I stopped for too long. I recently revamped the blog and started to write consistently, to the point I now write every week.
+{% assign pages_list = site.html_pages | sort:"modifiedDate" %}
+{% for post in pages_list limit:2 %}
+{% if post.title != 'Home' %}
 
-I learn new things every day. Most of the content that I end up writing here are those I got while researching a topic.
-If I can't explain it in simple terms, then I haven't fully understood the topic. I believe in this and so blogging helps me in explaining things.
+### [{{ post.title }}]({{ post.url }})
 
+{{ post.content }} [Read More...]({{ post.url }})
+{% endif %}
+{% endfor %}
 
+### Recent Posts
+
+{% for post in pages_list offset:1 limit:3 %}
+
+* [{{ post.title }}]({{ post.url }})
+
+{% endfor %}

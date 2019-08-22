@@ -3,6 +3,7 @@ layout: default
 title: Cloud architecture
 nav_order: 2
 has_children: true
+modifiedDate: 16-Jun-2019
 permalink: /docs/cloud-architecture
 dateWidget:
     targetTitle: Google Cloud Architect Exam
