@@ -2,7 +2,7 @@
 layout: default
 title: About
 nav_order: 10000000
-modifiedDate: 09-Jun-1986
+modifiedDate: 16-Jun-2015
 permalink: /docs/about
 ---
 ![Skill set ](\assets\images\skillset-cloud.png)
