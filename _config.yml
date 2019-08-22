@@ -16,7 +16,7 @@
 title: Food For Thought
 description: Documentation on my development journey
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://rjkani.in" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://rjkani.in" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
@@ -27,7 +27,7 @@ search_enabled: true
 # Aux links for the upper right navigation
 aux_links:
   "AdyarCafe":
-    - "http://adyarcafe-blogs.appspot.com/"
+    - "https://adyarcafe-blogs.appspot.com/"
 
 # Color scheme currently only supports "dark" or nil (default)
 color_scheme: nil
