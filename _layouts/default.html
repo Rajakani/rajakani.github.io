@@ -10,11 +10,12 @@
       <span class="fs-3"><button class="js-main-nav-trigger navigation-list-toggle btn btn-outline" type="button" data-text-toggle="Hide">Menu</button></span>
       <div class="navigation main-nav js-main-nav">
         {% include nav.html %}
-      </div>
+      </div>      
       <footer role="contentinfo" class="site-footer">
         <p class="text-small text-grey-dk-000 mb-0">&copy; Rajakani</p>
       </footer>
-    </div>
+    </div>   
+    
     <div class="main-content-wrap js-main-content" tabindex="0">
       <div class="page-header">
         <div class="main-content">
@@ -83,7 +84,12 @@
         {% endif %}
       </div>
     </div>
+    <div class="side-bar2">
+      <div class="navigation">
+        {% include right-nav.html %}
+      </div>
+    </div>
   </div>
-
+ 
 </body>
 </html>
