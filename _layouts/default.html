@@ -54,8 +54,11 @@
           {% endif %}
         {% endunless %}        
         <div id="main-content" class="page-content" role="main">
+          {% if page.is_display_Horizontal_Ads == true %}
+            {% include horizontal-view-ads.html %}
+          {% endif %}
           {{ content }}
-
+         
           {% if page.has_children == true and page.has_toc != false %}
           <hr>
           <h2 class="text-delta">Table of contents</h2>

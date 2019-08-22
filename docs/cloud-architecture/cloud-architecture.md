@@ -5,6 +5,7 @@ nav_order: 2
 has_children: true
 modifiedDate: 16-Jun-2019
 permalink: /docs/cloud-architecture
+is_display_Horizontal_Ads: true
 dateWidget:
     targetTitle: Google Cloud Architect Exam
     targetDate: 30-Sep-2019
