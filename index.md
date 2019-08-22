@@ -7,8 +7,6 @@ permalink: /
 modifiedDate: 09-Jun-1986
 ---
 
-![Skill set ](\assets\images\skillset-cloud.png)
-
 {% assign pages_list = site.html_pages | sort:"modifiedDate" %}
 {% for post in pages_list limit:2 %}
 {% if post.title != 'Home' %}
