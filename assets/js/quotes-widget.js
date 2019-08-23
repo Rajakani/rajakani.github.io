@@ -10,6 +10,7 @@ function getQuotes(){
         },
         crossDomain: true,
         success: function(response){
+          $('#quotesWidget').show();
           $('#quotesWidget').html(response.quote)
         },
         error: function(response){
