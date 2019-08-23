@@ -8,7 +8,7 @@ modifiedDate: 09-Jun-2019
 
 # Convert Number to Words
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script> -->
 <script>
 function convertNumberToWord(){
     var data = document.getElementById("numberField").value;

@@ -6,7 +6,7 @@ description: "Welcome, This is my personal Blog"
 permalink: /
 modifiedDate: 09-Jun-1986
 ---
-
+{% include quotes-widget.html %}
 {% assign pages_list = site.html_pages | sort:"modifiedDate" %}
 {% for post in pages_list limit:2 %}
 {% if post.title != 'Home' %}
