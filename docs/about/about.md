@@ -2,6 +2,7 @@
 layout: default
 title: About
 nav_order: 10000000
+has_children: true
 modifiedDate: 16-Jun-2015
 permalink: /docs/about
 ---

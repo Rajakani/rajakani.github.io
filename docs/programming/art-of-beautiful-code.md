@@ -18,6 +18,7 @@ Before start writing any piece of code, brainstrom more about the business termi
 Once all the business terminologies are listed out and decide which one will become the behaviours and which one will be the properties, then write the abstract class first, Interfaces are a good choice though.
 If you feel something may get change in future or may vary for different types, those are candidates to become a new sub-class.
 
-Never write any implemenation code first, write the behaviours and just add a method name inside it, if possible with the input and output parameters filled. Once you have the methods defined, its easier to read through the implementations. Here your are not writing any code, just the flow block names.
+Never write any implementation code first, write the behaviours and just add a method name inside it, if possible with the input and output parameters filled. Once you have the methods defined, its easier to read through the implementations. Here your are not writing any code, just the block names.
 
-As a rule of thumb never write more than Five lines of code inside any methods. This helps in making the code more modular and grouping them to classes later.
+>I once had a Agile Coach who is a strong advisor of writing fewer lines of code per method, say five lines maximum.
+I couldnt believe what he said, I didnt accept what he said, Then I look at his code and notice how simple it was.
