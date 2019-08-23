@@ -3,9 +3,11 @@ layout: default
 title: 'Serverless Architecture'
 parent: Cloud architecture
 nav_order: 3
-modifiedDate: 22-Aug-2019
+modifiedDate: 23-Aug-2019
 comments: true
 ---
+
+[Article on Serverless Architecture](https://martinfowler.com/articles/serverless.html) by Martin Fowler
 
 ## Evolution of Serverless
 
