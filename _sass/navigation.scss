@@ -5,6 +5,7 @@
 .site-title {
   display: block;
   flex: 1 1 auto;
+  font-family: $title-font-family;
   color: $body-heading-color; 
 
   @include mq(md) {
@@ -77,6 +78,7 @@
 
 .navigation-list-link {
   display: block;
+  font-size: 1.25rem;
   padding-top: $sp-1;
   padding-bottom: $sp-1;
 
@@ -88,11 +90,12 @@
 }
 
 // Small screen nav
-
+.main-nav{
+  font-family: $navmenu-font-family;
+}
 .main-nav,
 .aux-nav {
   display: none;
-
   &.nav-open {
     display: block;
   }
