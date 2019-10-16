@@ -48,3 +48,5 @@ Educational Institutes and websites dealing with Engineering topics
 [Cambridge MIT Multidisciplinary Design Project](http://www-mdp.eng.cam.ac.uk/)
 
 [Tallinna University of Technology](http://www.ttu.ee/)
+
+[Rutgers - School of Arts and Sciences ](http://www.physics.rutgers.edu/ast/)

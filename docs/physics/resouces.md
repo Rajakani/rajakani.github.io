@@ -2,7 +2,7 @@
 layout: default
 title: Resouces
 nav_order: 2
-parent: Client Side
+parent: Physics
 modifiedDate: 09-Sep-1986
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 'Engineering'
+title: 'Magnitude'
 parent: 'AstroPhysics'
 grand_parent: Physics
 nav_order: 8
