@@ -12,10 +12,9 @@ Educational Institutes and websites dealing with Engineering topics
 
 [Dwight Look College of Engineering](http://www.pe.tamu.edu)
 
-
 [University of Saskatechewan  College of Engineering](http://www.engr.usask.ca/)
 
-[Faculty of Engineering University of Buenos Aires] (http://www.ingenieria.uba.ar/)
+[Faculty of Engineering University of Buenos Aires](http://www.ingenieria.uba.ar/)
 
 [Montana Tech of the University of Montana](http://www.mtech.edu/)
 

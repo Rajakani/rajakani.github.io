@@ -11,3 +11,7 @@ modifiedDate: 09-Sep-1986
 http://www.alcyone.com/max/physics/index.html
 http://www.alcyone.com/max/reference/physics/index.html
 https://umdphysics.umd.edu/
+
+
+## Articles
+[Back to Basics on Maths](http://www.math.utah.edu/~alfeld/index.html)
