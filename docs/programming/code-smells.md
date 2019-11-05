@@ -71,4 +71,8 @@ comments: true
 	We need a method that's missing from the library, but we're unwilling or unable to change the library to include the method. The method ends up tacked on to some other class. If you can't modify the library, consider isolating the method.
 ### Solution Sprawl
 	If it takes five classes to do anything useful, you might have solution sprawl. Consider simplifying and consolidating your design
+
+
+### Further Reading
+http://www.industriallogic.com/wp-content/uploads/2005/09/smellstorefactorings.pdf
   
