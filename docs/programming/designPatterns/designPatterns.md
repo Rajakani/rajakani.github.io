@@ -9,6 +9,7 @@ comments: false
 ---
 # Design Patterns
 
+
 ### What is a Design Pattern
 Design pattern is a repeatable solution to a commonly occurring problem in software design. 
 
