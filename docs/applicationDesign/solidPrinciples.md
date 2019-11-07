@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 'SOLID Principles'
-parent: Programming
+parent: Application Design
 nav_order: 2
 modifiedDate: 09-Sep-2017
 comments: true

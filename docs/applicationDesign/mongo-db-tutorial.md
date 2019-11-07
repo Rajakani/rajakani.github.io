@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 'Mongo DB'
-parent: Programming
+parent: Application Design
 nav_order: 4
 modifiedDate: 21-Feb-2017
 ---

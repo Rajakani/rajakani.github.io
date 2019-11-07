@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Programming
+title: Application Design
 nav_order: 2
 has_children: true
 modifiedDate: 16-Jun-2019
-permalink: /docs/programming
+permalink: /docs/applicationDesign
 ---
 
 

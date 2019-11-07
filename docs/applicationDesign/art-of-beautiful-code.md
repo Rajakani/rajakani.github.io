@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 'The art of writing perfect code'
-parent: Programming
+parent: Application Design
 nav_order: 1
 modifiedDate: 22-Aug-2019
 ---

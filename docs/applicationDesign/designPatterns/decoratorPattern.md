@@ -2,7 +2,7 @@
 layout: default
 title: 'Decorator Pattern'
 parent: 'Design Patterns'
-grand_parent: Programming
+grand_parent: Application Design
 nav_order: 3
 modifiedDate: 4-Apr-2019
 comments: true

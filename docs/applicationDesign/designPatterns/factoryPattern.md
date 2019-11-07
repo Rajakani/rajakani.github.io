@@ -2,7 +2,7 @@
 layout: default
 title: 'Factory Pattern'
 parent: 'Design Patterns'
-grand_parent: Programming
+grand_parent: Application Design
 nav_order: 5
 modifiedDate: 4-Apr-2019
 comments: true

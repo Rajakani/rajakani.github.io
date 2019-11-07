@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Cloud architecture
-nav_order: 2
+title: Architecture
+nav_order: 3
 has_children: true
 modifiedDate: 16-Jun-2019
-permalink: /docs/cloud-architecture
+permalink: /docs/architecture
 is_display_Horizontal_Ads: true
 dateWidget:
     targetTitle: Google Cloud Architect Exam

@@ -2,7 +2,7 @@
 layout: default
 title: 'Cloud Architech Exam Guide'
 parent: 'Exam Preparation'
-grand_parent: 'Cloud architecture'
+grand_parent: 'Architecture'
 nav_order: 1
 modifiedDate: 4-Apr-2019
 ---

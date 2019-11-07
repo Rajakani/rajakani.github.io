@@ -3,7 +3,7 @@ layout: default
 title: Exam Preparation
 nav_order: 1
 has_children: true
-parent: 'Cloud architecture'
+parent: 'Architecture'
 modifiedDate: 09-Jun-2019
 comments: false
 dateWidget:

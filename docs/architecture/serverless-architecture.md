@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 'Serverless Architecture'
-parent: Cloud architecture
+parent: Architecture
 nav_order: 3
 modifiedDate: 23-Aug-2019
 comments: true

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cloud applications
-nav_order: 3
+nav_order: 4
 has_children: true
 modifiedDate: 16-Jun-2019
 permalink: /docs/cloud-applications

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Resources
-nav_order: 100
+nav_order: 1000
 modifiedDate: 09-Sep-2010
 ---
 

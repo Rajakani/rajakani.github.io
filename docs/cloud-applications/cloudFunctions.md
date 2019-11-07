@@ -2,7 +2,7 @@
 layout: default
 title: 'Cloud Functions'
 parent: Cloud applications
-nav_order: 1
+nav_order: 4
 modifiedDate: 09-Sep-2017
 comments: true
 ---

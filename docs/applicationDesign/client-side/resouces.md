@@ -3,6 +3,7 @@ layout: default
 title: Resouces
 nav_order: 2
 parent: Client Side
+grand_parent: Application Design
 modifiedDate: 09-Sep-1986
 ---
 
