@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 'Personal Development'
-parent: Library
+parent: Book Shelf
 nav_order: 10
 modifiedDate: 09-Jun-2019
 ---

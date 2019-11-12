@@ -14,7 +14,13 @@
     overflow-y: hidden;
   }
 }
-
+.icon {
+  background: url('../favicon.ico');
+  height: 20px;
+  width: 20px;
+  display: block;
+  /* Other styles here */
+}
 .side-bar {
   z-index: 100;
   display: flex;

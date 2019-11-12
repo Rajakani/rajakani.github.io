@@ -3,7 +3,7 @@ layout: default
 title: 'Educational Institutes'
 nav_order: 1
 has_children: true
-parent: Learning Path
+parent: Physics
 modifiedDate: 09-Jun-2010
 comments: false
 ---
