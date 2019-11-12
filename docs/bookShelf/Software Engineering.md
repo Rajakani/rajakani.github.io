@@ -15,7 +15,8 @@ modifiedDate: 09-Jun-2019
 
 ## Free Books
 
-[How Computers Work](http://www.fastchip.net/howcomputerswork/p1.html)  
+[How Computers Work](http://www.fastchip.net/howcomputerswork/p1.html)
+[Object-oriented Programming in ANSI-C](https://www.cs.rit.edu/~ats/books/ooc.pdf)
 [C#](...docs/bookShelf/freeBooks/CSharpBook2019Refresh.pdf)  
 [C# Essentials](https://www.techotopia.com/index.php/C_Sharp_Essentials)  
 [Object-Oriented Reengineering Patterns](http://scg.unibe.ch/download/oorp/)  
