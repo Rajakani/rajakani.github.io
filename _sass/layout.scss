@@ -15,10 +15,12 @@
   }
 }
 .icon {
-  background: url('../favicon.ico');
-  height: 20px;
-  width: 20px;
-  display: block;
+  background: url('/favicon.ico');
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
   /* Other styles here */
 }
 .side-bar {
@@ -122,7 +124,8 @@
     width: $nav-width + 32px;
   }
 }
-
+//Hide Scrollbar
+.element::-webkit-scrollbar { width: 0 !important }
 .navigation {
   @include mq(md) {
     padding-top: $sp-8;
