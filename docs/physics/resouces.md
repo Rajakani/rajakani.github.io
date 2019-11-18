@@ -14,4 +14,5 @@ https://umdphysics.umd.edu/
 
 
 ## Articles
-[Back to Basics on Maths](http://www.math.utah.edu/~alfeld/index.html)
+[Back to Basics on Maths](http://www.math.utah.edu/~alfeld/index.html)  
+[Feynman Lectures](http://www.feynmanlectures.caltech.edu/I_01.html)
