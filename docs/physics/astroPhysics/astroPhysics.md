@@ -9,6 +9,10 @@ comments: false
 ---
 
 
+Astrology Softwares
+
+https://www.astropy.org/
+
 ## Read about Orgin of Astrology and Astronomy. 
 
 See the links below to know how ancient people mapped the sky. 
