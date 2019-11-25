@@ -9,7 +9,7 @@ comments: false
 ---
 
 
-Astrology Softwares
+Astronomy Softwares
 
 https://www.astropy.org/
 
