@@ -6,5 +6,10 @@ has_children: false
 parent: Community Events
 modifiedDate: 16-Jun-2019
 ---
+# Personal Care products
 
-[Maybelline New York Face Studio Master Primer, Redness control, 30 g ](https://amzn.to/2KWifF1)
+## Face
+{% include AmazonLinks/PersonalCare/Face/Primer/Maybellene.html %}
+
+## Eyes
+{% include AmazonLinks/PersonalCare/Eyes/Mascara/Maybellene.html %}
