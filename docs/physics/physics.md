@@ -3,7 +3,7 @@ layout: default
 title: Physics
 nav_order: 6
 has_children: true
-modifiedDate: 16-Jun-2010
+modifiedDate: 2007-12-01
 permalink: /docs/physics
 is_display_Horizontal_Ads: true
 ---

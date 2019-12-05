@@ -3,13 +3,15 @@ layout: default
 title: 'The art of writing perfect code'
 parent: Application Design
 nav_order: 1
-modifiedDate: 22-Aug-2019
+modifiedDate: 2019-12-04
 ---
 ## The Art of writing beautiful code
 
 &quot;*A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over with a working simple system* &quot; - Gall's Law
 
 The above quote is from the book [Systemantics](https://www.amazon.in/gp/product/B00AK1BIDM/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B00AK1BIDM&linkCode=as2&tag=adyarcafe-21&linkId=c59100aa2917a653ce6d12b31f9de5ff) published in 1975 which is still relevant for any Systems Design.
+
+<!-- more -->
 
 ### How to start writing beautiful code
 

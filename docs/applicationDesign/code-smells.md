@@ -3,7 +3,7 @@ layout: default
 title: 'Code Smells'
 parent: Application Design
 nav_order: 2
-modifiedDate: 09-Sep-2017
+modifiedDate: 2019-12-01
 comments: true
 ---
 
@@ -17,6 +17,7 @@ There's a fine line between comments that illuminate and comments that obscure. 
 
 All other things being equal, a shorter method is easier to read, easier to understand, and easier to troubleshoot. Refactor long methods into smaller methods if you can.  
 
+<!-- more -->
 ### Long Parameter List
 
 The more parameters a method has, the more complex it is. Limit the number of parameters you need in a given method, or use an object to combine the parameters.  
@@ -73,7 +74,7 @@ If two classes are similar on the inside, but different on the outside, perhaps 
 
 ### Primitive Obsession
 
-Don't use a gaggle of primitive data type variables as a poor man's substitute for a class. If your data type is sufficiently complex, write a class to represent it. 
+Don't use a gaggle of primitive data type variables as a poor man's substitute for a class. If your data type is sufficiently complex, write a class to represent it.
 
 ### Data Class
 
@@ -134,4 +135,3 @@ If it takes five classes to do anything useful, you might have solution sprawl. 
 ### Further Reading
 
 http://www.industriallogic.com/wp-content/uploads/2005/09/smellstorefactorings.pdf
-  

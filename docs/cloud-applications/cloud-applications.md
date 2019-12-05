@@ -3,7 +3,7 @@ layout: default
 title: Cloud applications
 nav_order: 4
 has_children: true
-modifiedDate: 16-Jun-2019
+modifiedDate: 2019-01-19
 permalink: /docs/cloud-applications
 is_display_Horizontal_Ads: true
 ---

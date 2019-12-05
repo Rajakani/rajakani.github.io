@@ -3,7 +3,7 @@ layout: default
 title: 'SOLID Principles'
 parent: Application Design
 nav_order: 2
-modifiedDate: 09-Sep-2017
+modifiedDate: 2019-11-28
 comments: true
 ---
 ## SOLID Principles
@@ -27,4 +27,3 @@ In object-oriented design, the SOLID principles are a set of five design princip
   You can avoid these problems by asking a simple question before you make any changes: What is the responsibility of your class/component/microservice?
 
   If your answer includes the word “and”, you’re most likely breaking the single responsibility principle. Then it’s better take a step back and rethink your current approach. There is most likely a better way to implement it.
-  

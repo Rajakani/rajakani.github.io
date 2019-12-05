@@ -3,7 +3,7 @@ layout: default
 title: 'Serverless Architecture'
 parent: Architecture
 nav_order: 3
-modifiedDate: 23-Aug-2019
+modifiedDate: 2019-08-23
 comments: true
 ---
 
@@ -50,7 +50,7 @@ Use Step Functions, its a code orchestration. Its like a flow chart.
 
 We need to wary of time, because we need to respond to client fast and process fast so charge will be less.
 
-    Run a stats for the lambda function taht calculates 1000 time all the prime numbers less than 1000000 with multiple processing memories. Its not about the memory we use, but the time of processing which affects the cost. Most cases the cost change will be negligible, Do some experiment on this. 
+    Run a stats for the lambda function taht calculates 1000 time all the prime numbers less than 1000000 with multiple processing memories. Its not about the memory we use, but the time of processing which affects the cost. Most cases the cost change will be negligible, Do some experiment on this.
 
 ### Memory
 
@@ -64,7 +64,7 @@ The reason being RDS, because of limited number of concurrent Connections.
     One Solution is to move RDS to DynamoDb.But if we cant move data.
     Use amazon Kinesis.
 
-    Use Cloud native Design to make full use of Serverless architecture, not just lambda. 
+    Use Cloud native Design to make full use of Serverless architecture, not just lambda.
 
 #### Design for failures and duplicates
 

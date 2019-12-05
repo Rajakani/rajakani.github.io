@@ -4,7 +4,7 @@ title: 'Decorator Pattern'
 parent: 'Design Patterns'
 grand_parent: Application Design
 nav_order: 3
-modifiedDate: 4-Apr-2019
+modifiedDate: 2019-01-10
 comments: true
 ---
 <em>Decorator pattern allows new behavior to be added to an individual object, dynamically, without affecting the behavior of other objects from the same class  </em>

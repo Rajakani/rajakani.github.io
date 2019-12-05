@@ -3,7 +3,7 @@ layout: default
 title: About
 nav_order: 10000000
 has_children: true
-modifiedDate: 16-Jun-2015
+modifiedDate: 2015-09-16
 permalink: /docs/about
 ---
 ![Skill set ](\assets\images\skillset-cloud.png)

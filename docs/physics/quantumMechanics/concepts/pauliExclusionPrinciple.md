@@ -4,7 +4,7 @@ title: 'Pauli Exclusion'
 parent: 'Concepts'
 grand_parent: Quantum Mechanics
 nav_order: 1
-modifiedDate: 4-Apr-2019
+modifiedDate: 2019-10-01
 comments: true
 ---
 

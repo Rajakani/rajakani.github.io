@@ -3,7 +3,7 @@ layout: default
 title: Questions and Answers
 nav_order: 2
 parent: Physics
-modifiedDate: 09-Sep-1986
+modifiedDate: 2019-12-01
 ---
 
 ## Resources

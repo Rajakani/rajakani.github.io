@@ -3,7 +3,7 @@ layout: default
 title: 'Number to Words Convertor'
 parent: Tools
 nav_order: 3
-modifiedDate: 09-Jun-2019
+modifiedDate: 2019-06-09
 ---
 
 # Convert Number to Words

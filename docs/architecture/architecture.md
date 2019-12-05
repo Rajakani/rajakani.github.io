@@ -3,12 +3,12 @@ layout: default
 title: Architecture
 nav_order: 3
 has_children: true
-modifiedDate: 16-Jun-2019
+modifiedDate: 2019-01-19
 permalink: /docs/architecture
 is_display_Horizontal_Ads: true
 dateWidget:
     targetTitle: Google Cloud Architect Exam
-    targetDate: 30-Sep-2019
+    targetDate: 30-Mar-2020
 ---
 {: .fs-9 }
 {% include counter-widget.html %}

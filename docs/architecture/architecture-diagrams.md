@@ -3,7 +3,7 @@ layout: default
 title: 'Architecture Diagrams'
 parent: Architecture
 nav_order: 2
-modifiedDate: 16-Jun-2019
+modifiedDate: 2019-01-19
 comments: true
 ---
 ## Icons and Template Diagrams

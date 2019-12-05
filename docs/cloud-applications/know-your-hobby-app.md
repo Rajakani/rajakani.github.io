@@ -3,7 +3,7 @@ layout: default
 title: 'Know Your Hobby-App'
 parent: Cloud applications
 nav_order: 2
-modifiedDate: 16-Jun-2019
+modifiedDate: 2019-01-19
 comments: true
 dateWidget:
     targetTitle: Basic Architecture
@@ -96,9 +96,9 @@ Copy to web folder
 sudo cp -a publish/ /var/kyh-server
 ```
 
-The Application is run using a service in Systemd. 
+The Application is run using a service in Systemd.
 
-ngnix Congig file. 
+ngnix Congig file.
 
 ```bash
 sudo vi /etc/nginx/sites-available/default

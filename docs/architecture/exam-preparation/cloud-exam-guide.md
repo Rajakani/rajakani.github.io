@@ -4,7 +4,7 @@ title: 'Cloud Architech Exam Guide'
 parent: 'Exam Preparation'
 grand_parent: 'Architecture'
 nav_order: 1
-modifiedDate: 4-Apr-2019
+modifiedDate: 2019-04-09
 ---
 # Certification Exam Guide
 ## Section 1: Designing and planning a cloud solution architecture

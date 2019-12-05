@@ -4,7 +4,7 @@ title: 'Chaos Engineering in HotStar'
 parent: 'Cloud Events'
 grand_parent: 'Community Events'
 nav_order: 1
-modifiedDate: 10-Aug-2019
+modifiedDate: 2019-08-10
 ---
 # Chaos Engineering in HotStar
 
@@ -35,13 +35,9 @@ modifiedDate: 10-Aug-2019
     Failures - Network, servers, applications
 
 ## Panic Mode
-Putting a service to panic mode, bypasses that service and the user can continue using other services. 
+Putting a service to panic mode, bypasses that service and the user can continue using other services.
 Ex: if Login service is down, the user may not need to login during the fix
 
     Turn off Non-crtical services
     P0 services must be always up
     Graceful Degradation
-
-
-
-

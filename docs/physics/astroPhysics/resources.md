@@ -4,7 +4,7 @@ title: 'Resources'
 parent: 'AstroPhysics'
 grand_parent: Physics
 nav_order: 8
-modifiedDate: 4-Apr-2019
+modifiedDate: 2018-10-12
 comments: true
 is_display_Horizontal_Ads: true
 ---

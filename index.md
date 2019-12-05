@@ -4,22 +4,31 @@ title: Home
 nav_order: 1
 description: "Welcome, This is my personal Blog"
 permalink: /
-modifiedDate: 09-Jun-1986
+modifiedDate: 1986-06-09
 ---
+
 {% include quotes-widget.html %}
-{% assign pages_list = site.html_pages | sort:"modifiedDate" %}
-{% for post in pages_list limit:2 %}
+{% assign pages_list =  site.html_pages | sort_natural:"modifiedDate" | reverse %}
+{% for post in pages_list limit:5 %}
 {% if post.title != 'Home' %}
 
-### [{{ post.title }}]({{ post.url }})
+## [{{ post.title }}]({{ post.url }})
 
-{{ post.content }}
+{% if post.content contains "<!-- more -->" %}
+     {{ post.content | split:"<!-- more -->" | first % }}     
+
+     <a class="info">{{ post.url }}</a>
+
+   {% else %}
+     {{ post.content }}
+   {% endif %}
+
 {% endif %}
 {% endfor %}
 
 ### Recent Posts
 
-{% for post in pages_list offset:1 limit:2 %}
+{% for post in pages_list offset:1 limit:5 %}
 
 [{{ post.title }}]({{ post.url }})
 {% endfor %}
