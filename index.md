@@ -2,9 +2,8 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Welcome, This is my personal Blog"
+description: "Welcome to Rajakani's personal Blog"
 permalink: /
-modifiedDate: 1986-06-09
 ---
 
 {% include quotes-widget.html %}
@@ -15,7 +14,7 @@ modifiedDate: 1986-06-09
 ## [{{ post.title }}]({{ post.url }})
 
 {% if post.content contains "<!-- more -->" %}
-     {{ post.content | split:"<!-- more -->" | first % }}     
+     {{ post.content | split:"<!-- more -->" | first  }}     
 
      <a class="info">{{ post.url }}</a>
 
