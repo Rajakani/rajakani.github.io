@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Exam Preparation
-nav_order: 1
+nav_order: 2
 has_children: true
 parent: 'Architecture'
 modifiedDate: 2019-04-09
