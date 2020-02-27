@@ -7,14 +7,14 @@ permalink: /
 ---
 
 {% include quotes-widget.html %}
-{% assign pages_list =  site.html_pages | sort_natural:"modifiedDate" | reverse %}
+<!-- {% assign pages_list =  site.html_pages | sort_natural:"modifiedDate" | reverse %}
 {% for post in pages_list limit:5 %}
 {% if post.title != 'Home' %}
 
 ## [{{ post.title }}]({{ post.url }})
 
-{% if post.content contains "<!-- more -->" %}
-     {{ post.content | split:"<!-- more -->" | first  }}     
+{% if post.content contains "<!- more ->" %}
+     {{ post.content | split:"<!- more ->" | first  }}     
 
      <a class="info">{{ post.url }}</a>
 
@@ -23,7 +23,7 @@ permalink: /
    {% endif %}
 
 {% endif %}
-{% endfor %}
+{% endfor %} -->
 
 ### Recent Posts
 
