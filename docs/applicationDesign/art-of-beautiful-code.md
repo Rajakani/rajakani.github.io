@@ -15,12 +15,12 @@ The above quote is from the book [Systemantics](https://www.amazon.in/gp/product
 
 ### How to start writing beautiful code
 
-Before start writing any piece of code, brainstrom more about the business terminologies to start with Class design. Discuss as much as use cases of the class and how the code could be reused for that. We dont need to implement all those scenarios upfront as this may fall under YAGNI, but still think about the modularity and extensibilty of the code.
+Before start writing any piece of code, brainstorm more about the business terminologies to start with Class design. Discuss as much as use cases of the class and how the code could be reused for that. We don't need to implement all those scenarios upfront as this may fall under YAGNI, but still think about the modularity and extensibility of the code.
 
-Once all the business terminologies are listed out and decide which one will become the behaviours and which one will be the properties, then write the abstract class first, Interfaces are a good choice though.
+Once all the business terminologies are listed out and decide which one will become the behaviors and which one will be the properties, then write the abstract class first, Interfaces are a good choice though.
 If you feel something may get change in future or may vary for different types, those are candidates to become a new sub-class.
 
-Never write any implementation code first, write the behaviours and just add a method name inside it, if possible with the input and output parameters filled. Once you have the methods defined, its easier to read through the implementations. Here your are not writing any code, just the block names.
+Never write any implementation code first, write the behaviors and just add a method name inside it, if possible with the input and output parameters filled. Once you have the methods defined, its easier to read through the implementations. Here your are not writing any code, just the block names.
 
 >I once had a Agile Coach who is a strong advisor of writing fewer lines of code per method, say five lines maximum.
-I couldnt believe what he said, I didnt accept what he said, Then I look at his code and notice how simple it was.
+I couldn't believe what he said, I didn't accept what he said, Then I look at his code and notice how simple it was.
