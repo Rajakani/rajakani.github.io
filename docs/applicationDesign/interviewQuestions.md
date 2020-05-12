@@ -6,11 +6,11 @@ nav_order: 7
 modifiedDate: 2019-06-16
 ---
 
-## Why C# doesnt Support multiple inheritance.
+## Why C# doesn't Support multiple inheritance.
 The language designers preferred Composition over Inheritance incase of a Diamond problems arise. 
 Also if the constructor want to call the base class method, its seems quite confusing if there are multiple bases. 
 
-Its not that they couldnt solve this problem, they wanted the language to be simple. So they decided not to implement Multiple Inheritance. 
+Its not that they couldn't solve this problem, they wanted the language to be simple. So they decided not to implement Multiple Inheritance. 
 
 <!-- more -->
 [Interview with Chris Brumme - CLR Team](https://devblogs.microsoft.com/csharpfaq/why-doesnt-c-support-multiple-inheritance/)

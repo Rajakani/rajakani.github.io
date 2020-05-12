@@ -26,3 +26,7 @@ The architecture is defining components of a system and their Interactions. Desi
 - Knowledge of Security/Access Control, Concurrency, Online Diagnosis, Deployment, Upgrade/Migration, Internationalization and Production Support.
 
 Sample [Solutions](https://cloud.google.com/solutions/) for Google Cloud services
+
+
+### Resource
+[Icon and Template Link](https://cloud.google.com/icons/)

@@ -1,8 +1,8 @@
 ---
 layout: default
 title: 'Javascript is Crazy'
-parent: 'Application Design'
-grand_parent: Client Side
+parent: 'Client Side'
+grand_parent: Application Design
 nav_order: 8
 modifiedDate: 2019-12-17
 comments: true
