@@ -1,8 +1,8 @@
 ---
 layout: default
-title: 'FlyWieght Pattern'
+title: 'FlyWeight Pattern'
 parent: 'Design Patterns'
-grand_parent: Application Design
+grand_parent: Design Principles
 nav_order: 10
 modifiedDate: 2019-01-10
 comments: true

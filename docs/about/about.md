@@ -7,7 +7,6 @@ modifiedDate: 2015-09-16
 permalink: /docs/about
 ---
 ![Skill set ](\assets\images\skillset-cloud.png)
-{% include clock.html %}
 
 I am a Technical lead and a budding Architect with 12 plus years of experience in multiple Domains and technologies.
 
