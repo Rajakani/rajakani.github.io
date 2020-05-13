@@ -10,8 +10,8 @@ is_display_Horizontal_Ads: true
 ---
 {% include clock.html %}
 
-Cascading style sheets (CSS) are used to format the layout of [HTML](html.md) pages. 
-Most developers takes CSS for granted and not worry too much learning it, which breaks its sole purpose of [Separation of Concerns](separationofconcerns.md)
+Cascading style sheets (CSS) are used to format the layout of [HTML]({% link docs/applicationDesign/client-side/html/html.md %}) pages. 
+Most developers takes CSS for granted and not worry too much learning it, which breaks its sole purpose of [Separation of Concerns]({% link docs/applicationDesign/designPrinciples/separationofconcerns.md %})
 
 
 Most developers need basic understanding of CSS, even though they don't want to be a full time UI expert. CSS should be made in a way that the person maintaining the HTML and CSS are two different persons.

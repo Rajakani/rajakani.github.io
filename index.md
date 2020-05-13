@@ -6,23 +6,12 @@ description: "Welcome to Rajakani's personal Blog"
 permalink: /
 ---
 <!--{% include quotes-widget.html %} -->
-<!-- {% assign pages_list =  site.html_pages | sort_natural:"modifiedDate" | reverse %}
-{% for post in pages_list limit:5 %}
-{% if post.title != 'Home' %}
-
-## [{{ post.title }}]({{ post.url }})
-
-{% if post.content contains "<!- more ->" %}
-     {{ post.content | split:"<!- more ->" | first  }}     
-
-     <a class="info">{{ post.url }}</a>
-
-   {% else %}
-     {{ post.content }}
-   {% endif %}
-
+{% assign pages_list =  site.html_pages | sort_natural:"modifiedDate" | reverse %}
+{% for post in pages_list %}
+{% if post.title == 'Software Trends' %}
+{{ post.content }}
 {% endif %}
-{% endfor %} -->
+{% endfor %}
 
 ### Recent Posts
 
