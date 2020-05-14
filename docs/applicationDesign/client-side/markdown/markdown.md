@@ -17,4 +17,6 @@ Ctrl+Shift-V - preview of your Markdown code in HTML format
 
 #### Resources
 [Create Markdown Tables](https://tableconvert.com/)
+
+[Markdown Reference](https://www.markdownguide.org/)
     

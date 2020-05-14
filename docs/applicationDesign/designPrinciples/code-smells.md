@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 'Code Smells'
-parent: Application Design
+parent: Design Principles
 nav_order: 2
 modifiedDate: 2019-12-01
 comments: true
