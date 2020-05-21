@@ -14,3 +14,5 @@ I’ve been blogging for more than 3 years now, more or less consistently — al
 
 I learn new things every day. Most of the content that I end up writing here are those I got while researching a topic.
 If I can't explain it in simple terms, then I haven't fully understood the topic. I believe in this and so blogging helps me in explaining things.
+
+{% include payment.html %}
