@@ -27,3 +27,8 @@ In object-oriented design, the SOLID principles are a set of five design princip
   You can avoid these problems by asking a simple question before you make any changes: What is the responsibility of your class/component/microservice?
 
   If your answer includes the word “and”, you’re most likely breaking the single responsibility principle. Then it’s better take a step back and rethink your current approach. There is most likely a better way to implement it.
+
+#### What is Dependency
+    A dependency is any object that another object requires. For example : A Car class has a dependency on Engine class. A change in one dependency object should not have any impact on the consuming classes. Having a 'new' keyword to create instances of dependant classes is to be avoided at any cost. 'new' keyword means tightly coupled classes. 
+
+    One way to avoid this is by using Interfaces. Say IEngine and this can be passed on as a dependency to Car Constructor. This way Car and Engine can be developed and tested separately. 
