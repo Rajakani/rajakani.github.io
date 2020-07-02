@@ -21,7 +21,7 @@ Objects allocated on the stack are available only inside of a stack frame (execu
 
 ### Q: Which objects are allocated on the stack and which objects are allocated on the heap?
 
-Note: you should never say "reference types are allocated on the heap while value types are allocated on the stack", this is a commonly repeated mistake and sets off a red flag for an experienced interviewer.
+Note: you should never say "reference types are allocated on the heap while value types are allocated on the stack", this is a commonly repeated mistake.
 
 Reference types (classes, interfaces, delegates) are always allocated on the heap.
 
