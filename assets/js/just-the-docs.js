@@ -53,7 +53,7 @@ function initSearch() {
   }
 
   jsPath = source.replace('just-the-docs.js', '');
-  jsPath = document.URL + 'assets/js';
+  jsPath = document.URL + 'assets/js/';
   jsonPath = jsPath + 'search-data.json';
 
   var request = new XMLHttpRequest();
