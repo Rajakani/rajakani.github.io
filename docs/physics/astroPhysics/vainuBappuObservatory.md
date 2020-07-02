@@ -6,7 +6,6 @@ grand_parent: Physics
 nav_order: 8
 modifiedDate: 2020-01-12
 comments: true
-is_display_Horizontal_Ads: true
 ---
 
 ## First visit to an Astronomical Observatory
