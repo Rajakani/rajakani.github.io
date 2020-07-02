@@ -9,7 +9,7 @@ comments: true
 ---
 
 ## First visit to an Astronomical Observatory
-It was one fine evening during the Pongal Holidays of 2019, sitting on the couch and relaxing after lunch. While exploring places in and around Vellore, found this place on a google search. Without any second thoughts, we started our drive to Vainu Bappu Observatory in Kavalur, which is around 70 km from Vellore. Since it was around 4:30 PM, we took the shortest route via National Highway whilst there are two other ways to reach this place, one via Polur and other via Asanampattu. We avoided these routes as both these roads were through the Jawadhu hills reserve forest area. 
+It was one fine evening during the Pongal Holidays of 2019, sitting on the couch and relaxing after lunch. While I was exploring places in and around Vellore, found this place on a google search. Without any second thoughts, we started our drive to **Vainu Bappu Observatory** in Kavalur, which is around 70 km from Vellore. Since it was around 4:30 PM, we took the shortest route via National Highway whilst there are two other ways to reach this place, one via Polur and other via Asanampattu. We avoided these routes as both these roads were through the Jawadhu hills reserve forest area. 
 
 We reached Kavalur around 6:30 PM and luckily it was open for the public visit that day.
 The evening visit is allowed only if the sky is clear and only on Saturdays.
