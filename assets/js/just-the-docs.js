@@ -57,6 +57,7 @@ function initSearch() {
   jsonPath = jsPath + 'search-data.json';
 
   var request = new XMLHttpRequest();
+  request.header("Access-Control-Allow-Origin", 'https://rajakani.github.io/*'); 
   request.open('GET', jsonPath, true);
 
   request.onload = function() {
