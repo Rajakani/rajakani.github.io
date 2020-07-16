@@ -8,6 +8,7 @@ permalink: /docs/physics
 is_display_Horizontal_Ads: true
 ---
 
+{% include newtonsCradle.html %}
 
 > Everything we call real is made of things that cannot be regarded as real.
     -Niels Bohr

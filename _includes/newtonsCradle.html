@@ -1,0 +1,16 @@
+<!--LINK JQUERY-->
+<script  src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.14.2/matter.min.js"></script>
+<script type="text/javascript" src="{{ "/assets/js/newtonsCradle.js" | absolute_url }}"></script>
+<script>$( document ).ready(function() {Example.newtonsCradle();}); </script>
+<style>
+    h1   {color: blue;}
+    p    {color: red;}
+    canvas{ border: 5px solid #4a3320;width: 60%; height: 40%; margin-left: 20%; margin-right:20% }
+    .container{margin-bottom: 5%;}
+    .image-desc{font-size: .5em; margin-left: 15%;}
+</style>
+<div class="container">
+<canvas id="physics-container"></canvas>
+<span class="image-desc"><i>Try this interactive Newton's cradle. 
+    Pull One or more spheres from one end, and see the conservation of momentum</i></span>
+</div>
