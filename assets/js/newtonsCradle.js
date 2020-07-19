@@ -23,8 +23,7 @@ Example.newtonsCradle = function() {
             height: 250,
             showVelocity: true,
             wireframes: false,
-            showPositions: false,
-            background: '#9ae031'
+            showPositions: false            
         }
     });
 

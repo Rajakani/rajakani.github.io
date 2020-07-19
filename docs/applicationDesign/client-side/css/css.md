@@ -16,8 +16,11 @@ Most developers takes CSS for granted and not worry too much learning it, which 
 
 Most developers need basic understanding of CSS, even though they don't want to be a full time UI expert. CSS should be made in a way that the person maintaining the HTML and CSS are two different persons.
 
+
 If the styles are written in a 'lets fix this now' attitude, sooner or later we may face the consequences maintaining it. The common problems in writing CSS
 
+![The CSS-BOX-MODEL ](\assets\images\css\box-model.jpg)
+![Inline Vs Block ](\assets\images\css\inline-block.jpg)
 ## Readability
 These are the factors that affect readability.
 ### Inline styles. 
