@@ -1,0 +1,14 @@
+{% if page.has_children == true and page.has_toc != false %}                   
+{% assign children_list = site.pages | sort:"nav_order" %}
+<div>
+  <!-- <span class="nav-header"> Topics : </span> -->
+  {% for child in children_list %}
+    {% if child.parent == page.title and child.title != page.title %}
+    <span>          
+      <a href="{{ child.url | absolute_url }}"> <span class="nav-splitter">|</span> {{ child.title }} </a>
+    </span>
+    {% endif %}
+  {% endfor %}
+  </div>      
+  <hr>      
+{% endif %}

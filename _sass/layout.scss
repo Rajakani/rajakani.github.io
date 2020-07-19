@@ -68,6 +68,13 @@
   padding-block-start: 15px;
   width: 100%;
 }
+.nav-header{
+  font-weight: bold;
+  font-size: .8em;
+}
+.nav-splitter{
+  color: grey;
+}
 .main-content {
   padding-top: $gutter-spacing-sm;
   @include container;
