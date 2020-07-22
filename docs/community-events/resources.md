@@ -13,3 +13,6 @@ modifiedDate: 2019-08-10
 
 ## Eyes
 {% include AmazonLinks/PersonalCare/Eyes/Mascara/Maybellene.html %}
+
+## Lips
+{% include AmazonLinks/PersonalCare/Lips/Lipstick/Biotique.html %}
