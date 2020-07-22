@@ -10,6 +10,7 @@ modifiedDate: 2019-08-10
 
 ## Face
 {% include AmazonLinks/PersonalCare/Face/Primer/Maybellene.html %}
+{% include AmazonLinks/PersonalCare/Face/Blush/BiotiqueSunKissedTan.html %}
 
 ## Eyes
 {% include AmazonLinks/PersonalCare/Eyes/Mascara/Maybellene.html %}
@@ -17,4 +18,6 @@ modifiedDate: 2019-08-10
 ## Lips
 {% include AmazonLinks/PersonalCare/Lips/Lipstick/Biotique.html %}
 {% include AmazonLinks/PersonalCare/Lips/Lipstick/BiotiqueStarlit.html %}
+{% include AmazonLinks/PersonalCare/Lips/Lipstick/BiotiqueOhThatGirl.html %}
+{% include AmazonLinks/PersonalCare/Lips/Lipstick/BiotiqueDiva.html %}
 
