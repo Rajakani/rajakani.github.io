@@ -2,7 +2,7 @@
 layout: default
 title: Service Lifetime
 nav_order: 2
-modifiedDate: 2020-06-04
+modifiedDate: 2019-06-04
 parent: 'Dot Net Framework'
 ---
 
