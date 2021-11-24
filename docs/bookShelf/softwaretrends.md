@@ -3,7 +3,7 @@ layout: default
 title: 'Software Trends'
 parent: Book Shelf
 nav_order: 10
-modifiedDate: 2020-05-12
+modifiedDate: 2019-05-12
 ---
 
 Listed below are the developer road map for working on a web application. 
