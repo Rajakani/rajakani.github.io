@@ -2,7 +2,7 @@
 layout: default
 title: 'Software Trends'
 parent: Book Shelf
-nav_order: 10
+nav_order: 100
 modifiedDate: 2019-05-12
 ---
 
