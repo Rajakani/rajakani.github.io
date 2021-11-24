@@ -2,7 +2,7 @@
 layout: default
 title: 'The art of writing perfect code'
 parent: Application Design
-nav_order: 11
+nav_order: 1
 modifiedDate: 2021-11-04
 ---
 ## The Art of writing beautiful code
